@@ -28,7 +28,7 @@ export class Product {
   savedeadline: string;
 
   @Prop({
-    type: { type: mongoose.Schema.Types.ObjectId, ref: 'Type' },
+    type: { type: mongoose.Schema.Types.ObjectId, ref: 'Shopping' },
   })
   type_id: UUID;
 }
