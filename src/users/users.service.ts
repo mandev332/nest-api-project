@@ -18,7 +18,8 @@ export class UsersService {
     return this.userModel.find().exec();
   }
 
-  findOne(id: UUID) {
+  findOne(id: UUID, login: string) {
+    if (login) return this.userModel.findOne({ login });
     return this.userModel.findOne({ _id: id });
   }
 

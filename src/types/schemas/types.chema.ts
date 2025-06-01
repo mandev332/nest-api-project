@@ -10,10 +10,10 @@ export class Type {
   id: UUID;
 
   @Prop({ required: true })
-  name: string;
+  type_name: string;
 
   @Prop()
-  imageurl: string;
+  type_image_url: string;
 }
 
 export const TypeSchema = SchemaFactory.createForClass(Type);

@@ -2,6 +2,6 @@ import { UUID } from 'crypto';
 
 export class Type {
   id: UUID;
-  name: string;
-  imageurl: string;
+  type_name: string;
+  type_image_url: string;
 }
