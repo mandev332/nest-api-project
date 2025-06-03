@@ -4,6 +4,7 @@ import {
   Post,
   Body,
   Patch,
+  Request,
   Param,
   Delete,
   UseInterceptors,
@@ -39,9 +40,11 @@ export class UsersController {
       filePath: `${file.destination}/${file.originalname}`,
     };
   }
-  // @UseGuards(AuthGuard)
+
+  @UseGuards(AuthGuard)
   @Post()
-  create(@Body() createUserDto: CreateUserDto) {
+  create(@Request() req, @Body() createUserDto: CreateUserDto) {
+    // console.log(req.user.role);
     return this.usersService.create(createUserDto);
   }
 

@@ -7,7 +7,7 @@ import { MulterModule } from '@nestjs/platform-express';
 import { diskStorage } from 'multer';
 
 const fileStorage = diskStorage({
-  destination: './images/types/avatar',
+  destination: './images/types',
   filename: (req, file, cb) => {
     cb(null, file.originalname);
   },

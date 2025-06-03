@@ -22,7 +22,7 @@ import { FileInterceptor } from '@nestjs/platform-express';
 export class TypesController {
   constructor(private readonly typesService: TypesService) {}
 
-  @Post('avatar')
+  @Post('image')
   @UseInterceptors(FileInterceptor('file'))
   uploadFile(
     @UploadedFile(

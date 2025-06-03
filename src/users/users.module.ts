@@ -6,7 +6,6 @@ import { MongooseModule } from '@nestjs/mongoose';
 import { Order, OrderSchema } from 'src/order/schemas/users.schema';
 import { MulterModule } from '@nestjs/platform-express';
 import { diskStorage } from 'multer';
-import { AuthModule } from 'src/auth/auth.module';
 
 const fileStorage = diskStorage({
   destination: './images/users',
