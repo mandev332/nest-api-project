@@ -27,9 +27,9 @@ export class UsersService {
     return this.userModel.updateOne({
       _id: id,
       $set: {
-        firstname: updateUserDto.fio?.firstname,
-        lastname: updateUserDto.fio?.lastname,
-        middlename: updateUserDto.fio?.middlename,
+        firstname: updateUserDto.firstname,
+        lastname: updateUserDto.lastname,
+        middlename: updateUserDto.middlename,
         birthdate: updateUserDto.birthdate,
         address: updateUserDto.address,
         imageurl: updateUserDto.imageurl,
