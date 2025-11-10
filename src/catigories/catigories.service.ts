@@ -1,26 +1,40 @@
 import { Injectable } from '@nestjs/common';
 import { CreateCatigoryDto } from './dto/create-catigory.dto';
 import { UpdateCatigoryDto } from './dto/update-catigory.dto';
+import { InjectModel } from '@nestjs/mongoose';
+import { Category } from './entities/category.entity';
+import { Model } from 'mongoose';
+import { UUID } from 'crypto';
 
 @Injectable()
 export class CatigoriesService {
+  constructor(
+    @InjectModel(Category.name) private categoryModel: Model<Category>,
+  ) {}
   create(createCatigoryDto: CreateCatigoryDto) {
-    return 'This action adds a new catigory';
+    const createCategory = new this.categoryModel(createCatigoryDto);
+    return createCategory.save();
   }
 
   findAll() {
-    return `This action returns all catigories`;
+    return this.categoryModel.find().exec();
   }
 
-  findOne(id: number) {
-    return `This action returns a #${id} catigory`;
+  findOne(_id: UUID) {
+    return this.categoryModel.findOne({ _id });
   }
 
-  update(id: number, updateCatigoryDto: UpdateCatigoryDto) {
-    return `This action updates a #${id} catigory`;
+  update(_id: UUID, updateCatigoryDto: UpdateCatigoryDto) {
+    return this.categoryModel.updateOne({
+      _id,
+      $set: {
+        cat_name: updateCatigoryDto.name,
+        cat_image_url: updateCatigoryDto.imageurl,
+      },
+    });
   }
 
-  remove(id: number) {
-    return `This action removes a #${id} catigory`;
+  remove(_id: UUID) {
+    return this.categoryModel.deleteOne({ _id });
   }
 }

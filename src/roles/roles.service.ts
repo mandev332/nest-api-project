@@ -1,26 +1,38 @@
 import { Injectable } from '@nestjs/common';
 import { CreateRoleDto } from './dto/create-role.dto';
 import { UpdateRoleDto } from './dto/update-role.dto';
+import { InjectModel } from '@nestjs/mongoose';
+import { Role } from './entities/role.entity';
+import { Model } from 'mongoose';
+import { UUID } from 'crypto';
 
 @Injectable()
 export class RolesService {
+  constructor(@InjectModel(Role.name) private roleModel: Model<Role>) {}
   create(createRoleDto: CreateRoleDto) {
-    return 'This action adds a new role';
+    const createRoleModel = new this.roleModel(createRoleDto);
+    return this.roleModel.find().exec();
   }
 
   findAll() {
-    return `This action returns all roles`;
+    return this.roleModel.find().exec();
   }
 
-  findOne(id: number) {
-    return `This action returns a #${id} role`;
+  findOne(_id: UUID) {
+    return this.roleModel.findOne({ _id });
   }
 
-  update(id: number, updateRoleDto: UpdateRoleDto) {
-    return `This action updates a #${id} role`;
+  update(_id: UUID, updateRoleDto: UpdateRoleDto) {
+    return this.roleModel.updateOne({
+      _id,
+      $set: {
+        get: updateRoleDto.get,
+        del: updateRoleDto.del,
+        put: updateRoleDto.put,
+      },
+    });
   }
-
-  remove(id: number) {
-    return `This action removes a #${id} role`;
+  remove(_id: UUID) {
+    return this.roleModel.deleteOne({ _id });
   }
 }

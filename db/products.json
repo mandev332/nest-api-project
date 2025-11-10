@@ -1,0 +1,182 @@
+[
+  {
+    "name": "Centrum Multivitamin",
+    "price": "98000",
+    "count": "20",
+    "color": "",
+    "imageurl": "https://picsum.photos/200/300?random=1",
+    "savedeadline": "24",
+    "type_id": "68fa1505264f1e64c6cfa65c"
+  },
+  {
+    "name": "Vitrum Energy",
+    "price": "112000",
+    "count": "15",
+    "color": "",
+    "imageurl": "https://picsum.photos/200/300?random=2",
+    "savedeadline": "18",
+    "type_id": "68fa1505264f1e64c6cfa65c"
+  },
+  {
+    "name": "Complivit Active",
+    "price": "86000",
+    "count": "25",
+    "color": "",
+    "imageurl": "https://picsum.photos/200/300?random=3",
+    "savedeadline": "20",
+    "type_id": "68fa1505264f1e64c6cfa65c"
+  },
+  {
+    "name": "Alphabet Classic",
+    "price": "74000",
+    "count": "30",
+    "color": "",
+    "imageurl": "https://picsum.photos/200/300?random=4",
+    "savedeadline": "18",
+    "type_id": "68fa1505264f1e64c6cfa65c"
+  },
+  {
+    "name": "Supradyn Multivitamin",
+    "price": "105000",
+    "count": "10",
+    "color": "",
+    "imageurl": "https://picsum.photos/200/300?random=5",
+    "savedeadline": "24",
+    "type_id": "68fa1505264f1e64c6cfa65c"
+  },
+  {
+    "name": "Doppelherz Aktiv A-Z",
+    "price": "99000",
+    "count": "18",
+    "color": "",
+    "imageurl": "https://picsum.photos/200/300?random=6",
+    "savedeadline": "22",
+    "type_id": "68fa1505264f1e64c6cfa65c"
+  },
+  {
+    "name": "MultiTabs Classic",
+    "price": "97000",
+    "count": "14",
+    "color": "",
+    "imageurl": "https://picsum.photos/200/300?random=7",
+    "savedeadline": "16",
+    "type_id": "68fa1505264f1e64c6cfa65c"
+  },
+  {
+    "name": "Nature’s Bounty Daily Formula",
+    "price": "120000",
+    "count": "12",
+    "color": "",
+    "imageurl": "https://picsum.photos/200/300?random=8",
+    "savedeadline": "24",
+    "type_id": "68fa1505264f1e64c6cfa65c"
+  },
+  {
+    "name": "Elevit Multivitamin",
+    "price": "135000",
+    "count": "8",
+    "color": "",
+    "imageurl": "https://picsum.photos/200/300?random=9",
+    "savedeadline": "30",
+    "type_id": "68fa1505264f1e64c6cfa65c"
+  },
+  {
+    "name": "Solgar Formula VM-75",
+    "price": "142000",
+    "count": "6",
+    "color": "",
+    "imageurl": "https://picsum.photos/200/300?random=10",
+    "savedeadline": "28",
+    "type_id": "68fa1505264f1e64c6cfa65c"
+  },
+  {
+    "name": "Atlas",
+    "price": "160000",
+    "count": "50",
+    "color": "atlas",
+    "imageurl": "https://picsum.photos/200/300?random=1",
+    "savedeadline": "",
+    "type_id": "68fa0887264f1e64c6cfa64f"
+  },
+  {
+    "name": "Adras",
+    "price": "145000",
+    "count": "40",
+    "color": "adras",
+    "imageurl": "https://picsum.photos/200/300?random=2",
+    "savedeadline": "",
+    "type_id": "68fa0887264f1e64c6cfa64f"
+  },
+  {
+    "name": "Bekasam",
+    "price": "135000",
+    "count": "35",
+    "color": "ko‘k oq",
+    "imageurl": "https://picsum.photos/200/300?random=3",
+    "savedeadline": "",
+    "type_id": "68fa0887264f1e64c6cfa64f"
+  },
+  {
+    "name": "Khan Atlas Deluxe",
+    "price": "190000",
+    "count": "25",
+    "color": "yorqin rangli",
+    "imageurl": "https://picsum.photos/200/300?random=4",
+    "savedeadline": "",
+    "type_id": "68fa0887264f1e64c6cfa64f"
+  },
+  {
+    "name": "Ikat Namuna",
+    "price": "155000",
+    "count": "30",
+    "color": "ko‘k qizil naqshli",
+    "imageurl": "https://picsum.photos/200/300?random=5",
+    "savedeadline": "",
+    "type_id": "68fa0887264f1e64c6cfa64f"
+  },
+  {
+    "name": "Buxoro Atlas",
+    "price": "175000",
+    "count": "20",
+    "color": "sariq binafsha",
+    "imageurl": "https://picsum.photos/200/300?random=6",
+    "savedeadline": "",
+    "type_id": "68fa0887264f1e64c6cfa64f"
+  },
+  {
+    "name": "Samarqand Adras",
+    "price": "150000",
+    "count": "45",
+    "color": "yashil oq",
+    "imageurl": "https://picsum.photos/200/300?random=7",
+    "savedeadline": "",
+    "type_id": "68fa0887264f1e64c6cfa64f"
+  },
+  {
+    "name": "Qo‘qon Atlas Premium",
+    "price": "200000",
+    "count": "15",
+    "color": "qizil qora",
+    "imageurl": "https://picsum.photos/200/300?random=8",
+    "savedeadline": "",
+    "type_id": "68fa0887264f1e64c6cfa64f"
+  },
+  {
+    "name": "Andijon Adras",
+    "price": "140000",
+    "count": "60",
+    "color": "yashil ko‘k",
+    "imageurl": "https://picsum.photos/200/300?random=9",
+    "savedeadline": "",
+    "type_id": "68fa0887264f1e64c6cfa64f"
+  },
+  {
+    "name": "Namangan Atlas Classic",
+    "price": "165000",
+    "count": "28",
+    "color": "pushti ko‘k",
+    "imageurl": "https://picsum.photos/200/300?random=10",
+    "savedeadline": "",
+    "type_id": "68fa0887264f1e64c6cfa64f"
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "shop_name": "APTEKA FARM",
+    "address": "Toshkent",
+    "shop_image_url": "/images/shopping/apteka1.jpg",
+    "contact": "+998942152325",
+    "location": "https://www.google.com/maps/place/Apteka+Farm/@41.299459,69.347295",
+    "type_id": "6839ac1063208db954ec5b15",
+    "long": "41.299628236476565",
+    "lat": "69.34725208118391"
+  },
+  {
+    "shop_name": "DORI PLUS",
+    "address": "Toshkent, Chilonzor tumani",
+    "shop_image_url": "/images/shopping/apteka2.jpg",
+    "contact": "+998901234567",
+    "location": "https://www.google.com/maps/place/Dori+Plus/@41.275628,69.210325",
+    "type_id": "6839ac1063208db954ec5b15",
+    "long": "41.27562812038914",
+    "lat": "69.21032519012345"
+  },
+  {
+    "shop_name": "SHIFO APTEKA",
+    "address": "Toshkent, Yunusobod 5-mavze",
+    "shop_image_url": "/images/shopping/apteka3.jpg",
+    "contact": "+998933336677",
+    "location": "https://www.google.com/maps/place/Shifo+Apteka/@41.365142,69.283592",
+    "type_id": "6839ac1063208db954ec5b15",
+    "long": "41.36514222873415",
+    "lat": "69.28359218457191"
+  },
+  {
+    "shop_name": "HEALTH PHARMA",
+    "address": "Toshkent, Yakkasaroy tumani",
+    "shop_image_url": "/images/shopping/apteka4.jpg",
+    "contact": "+998935559977",
+    "location": "https://www.google.com/maps/place/Health+Pharma/@41.302591,69.262182",
+    "type_id": "6839ac1063208db954ec5b15",
+    "long": "41.30259119128374",
+    "lat": "69.26218231682745"
+  },
+  {
+    "shop_name": "MEHR DORI",
+    "address": "Toshkent, Sergeli tumani",
+    "shop_image_url": "/images/shopping/apteka5.jpg",
+    "contact": "+998907771122",
+    "location": "https://www.google.com/maps/place/Mehr+Dori/@41.240523,69.220495",
+    "type_id": "6839ac1063208db954ec5b15",
+    "long": "41.24052344281732",
+    "lat": "69.22049517381956"
+  },
+  {
+    "shop_name": "CLASSIC SUVINERS",
+    "address": "Toshkent, Sergeli tumani",
+    "shop_image_url": "/images/shopping/suviner1.jpg",
+    "contact": "+998907771122",
+    "location": "https://www.google.com/maps/place/Classic+Suviner/@41.240523,69.220495",
+    "type_id": "6839adbe46a0dfc53af55967",
+    "long": "41.24052344281732",
+    "lat": "69.22049517381956"
+  },
+  {
+    "shop_name": "UZ GIFT HOUSE",
+    "address": "Toshkent, Chilonzor tumani",
+    "shop_image_url": "/images/shopping/suviner2.jpg",
+    "contact": "+998903456789",
+    "location": "https://www.google.com/maps/place/Uz+Gift+House/@41.285492,69.229476",
+    "type_id": "6839adbe46a0dfc53af55967",
+    "long": "41.28549211837412",
+    "lat": "69.22947619384712"
+  },
+  {
+    "shop_name": "ORIENT SOUVENIRS",
+    "address": "Toshkent, Yakkasaroy tumani",
+    "shop_image_url": "/images/shopping/suviner3.jpg",
+    "contact": "+998935550011",
+    "location": "https://www.google.com/maps/place/Orient+Souvenirs/@41.298742,69.268942",
+    "type_id": "6839adbe46a0dfc53af55967",
+    "long": "41.29874201938452",
+    "lat": "69.26894218745214"
+  },
+  {
+    "shop_name": "ART & GIFT",
+    "address": "Toshkent, Yunusobod tumani",
+    "shop_image_url": "/images/shopping/suviner4.jpg",
+    "contact": "+998933301122",
+    "location": "https://www.google.com/maps/place/Art+%26+Gift/@41.356792,69.287410",
+    "type_id": "6839adbe46a0dfc53af55967",
+    "long": "41.35679224118274",
+    "lat": "69.28741022813476"
+  },
+  {
+    "shop_name": "SAMARKAND MEMORIES",
+    "address": "Samarqand, Registon maydoni",
+    "shop_image_url": "/images/shopping/suviner5.jpg",
+    "contact": "+998975551144",
+    "location": "https://www.google.com/maps/place/Samarkand+Memories/@39.654321,66.975321",
+    "type_id": "6839adbe46a0dfc53af55967",
+    "long": "39.65432148217342",
+    "lat": "66.97532118491231"
+  }
+]

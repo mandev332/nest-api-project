@@ -1,0 +1,52 @@
+[
+  {
+    "cat_name": "Vitaminlar va Qo‘shimchalar",
+    "cat_image_url": "https://picsum.photos/200/300?random=1",
+    "shop_id": "68f9d29f264f1e64c6cfa63e"
+  },
+  {
+    "cat_name": "Og‘riq qoldiruvchi dorilar",
+    "cat_image_url": "https://picsum.photos/200/300?random=2",
+    "shop_id": "68f9d29f264f1e64c6cfa63e"
+  },
+  {
+    "cat_name": "Tibbiy asbob-uskunalar",
+    "cat_image_url": "https://picsum.photos/200/300?random=3",
+    "shop_id": "68f9d29f264f1e64c6cfa63e"
+  },
+  {
+    "cat_name": "Bolalar uchun mahsulotlar",
+    "cat_image_url": "https://picsum.photos/200/300?random=4",
+    "shop_id": "68f9d29f264f1e64c6cfa63e"
+  },
+  {
+    "cat_name": "Terini parvarishlash vositalari",
+    "cat_image_url": "https://picsum.photos/200/300?random=5",
+    "shop_id": "68f9d29f264f1e64c6cfa63e"
+  },
+  {
+    "cat_name": "Milliy sovg‘alar",
+    "cat_image_url": "https://picsum.photos/200/300?random=1",
+    "shop_id": "68fa0887264f1e64c6cfa64f"
+  },
+  {
+    "cat_name": "Qo‘l mehnati buyumlari",
+    "cat_image_url": "https://picsum.photos/200/300?random=2",
+    "shop_id": "68fa0887264f1e64c6cfa64f"
+  },
+  {
+    "cat_name": "Magnet va kalit osgichlar",
+    "cat_image_url": "https://picsum.photos/200/300?random=3",
+    "shop_id": "68fa0887264f1e64c6cfa64f"
+  },
+  {
+    "cat_name": "Dekorativ bezak buyumlari",
+    "cat_image_url": "https://picsum.photos/200/300?random=4",
+    "shop_id": "68fa0887264f1e64c6cfa64f"
+  },
+  {
+    "cat_name": "An’anaviy kiyim va aksessuarlar",
+    "cat_image_url": "https://picsum.photos/200/300?random=5",
+    "shop_id": "68fa0887264f1e64c6cfa64f"
+  }
+]

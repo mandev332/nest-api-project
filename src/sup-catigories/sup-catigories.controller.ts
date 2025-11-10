@@ -15,6 +15,7 @@ import { SupCatigoriesService } from './sup-catigories.service';
 import { CreateSupCatigoryDto } from './dto/create-sup-catigory.dto';
 import { UpdateSupCatigoryDto } from './dto/update-sup-catigory.dto';
 import { FileInterceptor } from '@nestjs/platform-express';
+import { UUID } from 'crypto';
 
 @Controller('sup-catigories')
 export class SupCatigoriesController {
@@ -47,20 +48,20 @@ export class SupCatigoriesController {
   }
 
   @Get(':id')
-  findOne(@Param('id') id: string) {
-    return this.supCatigoriesService.findOne(+id);
+  findOne(@Param('id') id: UUID) {
+    return this.supCatigoriesService.findOne(id);
   }
 
   @Patch(':id')
   update(
-    @Param('id') id: string,
+    @Param('id') id: UUID,
     @Body() updateSupCatigoryDto: UpdateSupCatigoryDto,
   ) {
-    return this.supCatigoriesService.update(+id, updateSupCatigoryDto);
+    return this.supCatigoriesService.update(id, updateSupCatigoryDto);
   }
 
   @Delete(':id')
-  remove(@Param('id') id: string) {
-    return this.supCatigoriesService.remove(+id);
+  remove(@Param('id') id: UUID) {
+    return this.supCatigoriesService.remove(id);
   }
 }

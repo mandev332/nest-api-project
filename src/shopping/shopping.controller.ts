@@ -15,6 +15,7 @@ import { ShoppingService } from './shopping.service';
 import { CreateShoppingDto } from './dto/create-shopping.dto';
 import { UpdateShoppingDto } from './dto/update-shopping.dto';
 import { FileInterceptor } from '@nestjs/platform-express';
+import { UUID } from 'crypto';
 
 @Controller('shopping')
 export class ShoppingController {
@@ -47,20 +48,17 @@ export class ShoppingController {
   }
 
   @Get(':id')
-  findOne(@Param('id') id: string) {
-    return this.shoppingService.findOne(+id);
+  findOne(@Param('id') id: UUID) {
+    return this.shoppingService.findOne(id);
   }
 
   @Patch(':id')
-  update(
-    @Param('id') id: string,
-    @Body() updateShoppingDto: UpdateShoppingDto,
-  ) {
-    return this.shoppingService.update(+id, updateShoppingDto);
+  update(@Param('id') id: UUID, @Body() updateShoppingDto: UpdateShoppingDto) {
+    return this.shoppingService.update(id, updateShoppingDto);
   }
 
   @Delete(':id')
-  remove(@Param('id') id: string) {
-    return this.shoppingService.remove(+id);
+  remove(@Param('id') id: UUID) {
+    return this.shoppingService.remove(id);
   }
 }

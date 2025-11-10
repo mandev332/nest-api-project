@@ -15,6 +15,7 @@ import { CatigoriesService } from './catigories.service';
 import { CreateCatigoryDto } from './dto/create-catigory.dto';
 import { UpdateCatigoryDto } from './dto/update-catigory.dto';
 import { FileInterceptor } from '@nestjs/platform-express';
+import { UUID } from 'crypto';
 
 @Controller('catigories')
 export class CatigoriesController {
@@ -47,20 +48,17 @@ export class CatigoriesController {
   }
 
   @Get(':id')
-  findOne(@Param('id') id: string) {
-    return this.catigoriesService.findOne(+id);
+  findOne(@Param('id') id: UUID) {
+    return this.catigoriesService.findOne(id);
   }
 
   @Patch(':id')
-  update(
-    @Param('id') id: string,
-    @Body() updateCatigoryDto: UpdateCatigoryDto,
-  ) {
-    return this.catigoriesService.update(+id, updateCatigoryDto);
+  update(@Param('id') id: UUID, @Body() updateCatigoryDto: UpdateCatigoryDto) {
+    return this.catigoriesService.update(id, updateCatigoryDto);
   }
 
   @Delete(':id')
-  remove(@Param('id') id: string) {
-    return this.catigoriesService.remove(+id);
+  remove(@Param('id') id: UUID) {
+    return this.catigoriesService.remove(id);
   }
 }
